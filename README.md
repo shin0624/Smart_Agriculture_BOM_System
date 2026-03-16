@@ -5,7 +5,11 @@
 **1. 목적:** 농기계 부품의 조회·등록·재고관리를 오프라인 로컬 환경에서 운용하는 Windows 전용 데스크탑 프로그램  
 **2. 대상 사용자:** 농기계 부품 판매/재고 관리 업체 담당자  
 **3. 기술 스택**
-
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![PySide6](https://img.shields.io/badge/PySide6-Qt6-41CD52?logo=qt&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-3-003B57?logo=sqlite&logoColor=white)
+![Pillow](https://img.shields.io/badge/Pillow-Image%20Processing-8A2BE2)
+![PyInstaller](https://img.shields.io/badge/PyInstaller-Windows%20EXE%20Build-4B8BBE)
 | 구분 | 채택 기술 | 이유 |
 | :--- | :--- | :--- |
 | 언어 | Python 3.11 | 빠른 개발, SQLite 내장 |
