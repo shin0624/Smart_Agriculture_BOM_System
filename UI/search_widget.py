@@ -59,7 +59,7 @@ class SearchWidget(QWidget):
         self.result_table.setSelectionBehavior(QTableWidget.SelectRows)
         self.result_table.setEditTriggers(QTableWidget.NoEditTriggers)
         self.result_table.verticalHeader().setVisible(False)
-        self.result_table.setAlternatingRowColors(True)
+        self.result_table.setAlternatingRowColors(False)
         self.result_table.itemSelectionChanged.connect(self._on_select)
         lv.addWidget(self.result_table)
 
